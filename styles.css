@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 600px;
+  width: 70%;
+  background-color: #1f2937;
+  margin: 0.5em auto 0;
+  padding: 1.5em 1em;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+input,
+select,
+button {
+  cursor: pointer;
+}
+
+form select {
+  cursor: pointer;
+  flex-basis: 250px;
+  background-color: transparent;
+  color: #d5d4d8;
+  border: 1px solid #d5d4d8;
+  border-radius: 0.4em;
+  padding: 0 0.5em;
+}
+
+form select:open {
+  background-color: #1f2937;
+}
+
+input[type="color"] {
+  height: auto;
+  cursor: pointer;
+}
+
+form button {
+  background-color: #3d4b60;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  padding: 0.8em;
+  cursor: pointer;
+}
